@@ -1,0 +1,64 @@
+header{
+    display:block;
+    border: 1px solid black;
+}
+
+nav {
+    text-align:right;
+    padding:1%;
+}
+
+nav li {
+    display:inline;
+    margin:1%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+body {
+
+}
+
+article{
+    
+}
+
+main {
+   
+}
+
+
+.work{
+    width:200px;
+    height:100px;
+    display:relative;
+    margin:1%;
+}
+
+.project img {
+    height:auto;
+    width:auto;
+}
+
+section {
+    background-color:antiquewhite;
+    display:block;
+    height:100px;
+    margin:10px;
+}
+
+.left {
+    float:left;
+    width:30%;
+    border-right:5px solid black;
+    height:100%;
+    text-align:center;
+}
+
+.right {
+    float:right;
+    text-align:center;
+    width:70%
+}
