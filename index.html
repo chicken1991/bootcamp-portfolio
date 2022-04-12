@@ -11,14 +11,12 @@
 <body>
     <header>
         <h1>
-            Ben Pitroff's Portfolio
+            B. Pitroff
         </h1>
         <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#work">My Work</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
+            <a href="#about">About Me</a>
+            <a href="#work">My Work</a>
+            <a href="#contact">Contact Me</a>
         </nav>
     </header>
 
@@ -26,10 +24,12 @@
         <!-- About me section -->
         <section>
             <div class="left">
-                <h2>the about me title</h2>
+                <h2>ABOUT</h2>
             </div>
             <div class="right" id="about">
-                <p>This is the paragraph about me. Here it is. It should be longer than a couple words so I'm just going to keep typing and see where it all ends up...</p>
+                <article>
+                    <p>I learn things by doing, and I've done a lot! Right now, I'm doing a webdev bootcamp so that my tech skills are more rounded. I hope to one day become a Site Reliability engineer - until then, enjoy my work below!</p>
+                </article>
                 <img src="./assets/images/avatar.png">
             </div>
         </section>
@@ -37,18 +37,16 @@
         <!-- Portfolio work -->
         <section>
             <div class="left">
-                <h2>Projects</h2>
+                <h2>WORK</h2>
             </div>
             <div class="right" id="work">
-                <p>Gallery of projects, with hover links and all that jazz</p>
                 <div class="first-project">
-                    <img src="./assets/images/project1.png" alt="project 1 image">
+                    <a href="https://www.google.com"><img src="./assets/images/project1.png" alt="project 1 image"></a>
                 </div>
                 <div class="project">
-                    <img src="./assets/images/project2.png" alt="project 2 image">
-                </div>
-                <div class="project">
-                    <img src="./assets/images/project3.png" alt="project 3 image">
+                    <a href="https://www.google.com"><img src="./assets/images/project2.png" alt="project 2 image"></a>
+                    <a href="https://www.google.com"><img src="./assets/images/project3.png" alt="project 3 image"></a>
+                    <a href="https://www.google.com"><img src="./assets/images/project4.png" alt="project 4 image"></a>
                 </div>
             </div>
         </section>
@@ -56,11 +54,13 @@
         <!-- Contact section -->
         <section>
             <div class="left">
-                <h2>Contact</h2>
+                <h2>CONTACT</h2>
             </div>
-            <div class="right" id="contact">
-                <p>some sort of contact me stuff? Social media, email, etc.</p>
-            </div>
+                <div class="right" id="contact">
+                    <article>
+                        <p>some sort of contact me stuff? Social media, email, etc.</p>
+                    </article>
+                </div>
         </section>
 
     </main>
