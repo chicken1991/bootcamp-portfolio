@@ -1,32 +1,77 @@
+:root {
+    --background-color:#3A606E;
+    --heading-color:#E0E0E0;
+    --main-color:#607B7D
+}
+
+body{
+    background-color:var(--background-color);
+}
+
 header{
-    display:block;
+    /* display:flex; */
+    /* justify-content: space-between; */
     border: 1px solid black;
+    padding:2%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:var(--heading-color);
+}
+
+header h1  {
+    font-size:larger;
 }
 
 nav {
-    text-align:right;
-    padding:1%;
+    /* border: 1px solid black */
+}
+
+
+/* nav ul {
+   display: flex;
+   align-items: center;
+   border: 1px solid black;
+}
+
+nav li{
+    border: 1px solid black;
+    padding: 14px 20px;
+} */
+
+nav ul {
+    position:fixed;
+    top:1px;
+    right:5px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
 }
 
 nav li {
-    display:inline;
-    margin:1%;
+    float:left;
 }
 
-nav a {
+nav a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    color: var(--heading-color);
+}
+
+nav a:hover{
+    background-color:blue;
 }
 
 body {
-
-}
-
-article{
-    
+    border: 1px solid black
 }
 
 main {
-   
+    border: 1px solid black;
+    background-color:var(--main-color)
 }
 
 
@@ -43,10 +88,11 @@ main {
 }
 
 section {
-    background-color:antiquewhite;
-    display:block;
-    height:100px;
+    background-color:var(--main-color);
+    display:flex;
+    /* height:100px; */
     margin:10px;
+    border: 1px solid black
 }
 
 .left {
@@ -54,11 +100,34 @@ section {
     width:30%;
     border-right:5px solid black;
     height:100%;
-    text-align:center;
+    text-align:right;
+    border: 1px solid black
 }
 
 .right {
+    /* display: flex; */
     float:right;
-    text-align:center;
-    width:70%
+    width:70%;
+    height:10%;
+    border: 1px solid black
 }
+
+.right img {
+    position:relative;
+    left:50px;
+    width:150px;
+    height:auto;
+    border-radius: 100%;
+    border: 1px solid black
+}
+
+.right p {
+    position:relative;
+    left:50px;
+}
+
+/* 
+@media whatever to do a vertical navbar
+li a {
+  display: block;
+*/
