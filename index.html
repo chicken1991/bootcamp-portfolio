@@ -11,72 +11,104 @@
 <body>
     <header>
         <h1>
-            B. Pitroff
+            Ben Pitroff
         </h1>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#work">My Work</a>
-            <a href="#contact">Contact Me</a>
-        </nav>
+        <img class="avatar" src="./assets/images/avatar.png">
     </header>
-
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">My Work</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+   
     <main>
         <!-- About me section -->
         <section>
-            <div class="left">
-                <h2>ABOUT</h2>
+            
+            <h2>ABOUT</h2>
+
+            <div id="about">
+                <p>I learn things by doing, and I've done a lot! Right now, I'm doing a webdev bootcamp so that my tech skills are more rounded. I hope to one day become a Site Reliability engineer - until then, enjoy my work below!</p>
             </div>
-            <div class="right" id="about">
-                <article>
-                    <p>I learn things by doing, and I've done a lot! Right now, I'm doing a webdev bootcamp so that my tech skills are more rounded. I hope to one day become a Site Reliability engineer - until then, enjoy my work below!</p>
-                </article>
-                <img src="./assets/images/avatar.png">
-            </div>
+
         </section>
 
         <!-- Portfolio work -->
         <section>
-            <div class="left">
-                <h2>WORK</h2>
-            </div>
-            <div class="right" id="work">
-                <div class="first-project">
-                    <a href="https://www.google.com"><img src="./assets/images/project1.png" alt="project 1 image"></a>
+
+            <h2>WORK</h2>
+
+            <div id="work">
+                <div class="project-container feature">
+                    <a href="https://chicken1991.github.io/css-refactoring-homework/">
+                        <img src="./assets/images/project1.png" alt="project 1 image">
+                        <div class="photo-label">
+                            <h3>Project 1</h3>
+                            <h4>Refactoring CSS</h4>
+                        </div>
+                    </a>
                 </div>
-                <div class="project">
-                    <a href="https://www.google.com"><img src="./assets/images/project2.png" alt="project 2 image"></a>
-                    <a href="https://www.google.com"><img src="./assets/images/project3.png" alt="project 3 image"></a>
-                    <a href="https://www.google.com"><img src="./assets/images/project4.png" alt="project 4 image"></a>
+
+                <div class="project-container">
+                    <a href="https://www.google.com">
+                        <img src="./assets/images/project2.png" alt="project 2 image">
+                        <div class="photo-label">
+                            <h3>Project 2</h3>
+                            <h4>Placeholder definition</h4>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project-container">
+                    <a href="https://www.google.com">
+                        <img src="./assets/images/project3.png" alt="project 3 image">
+                        <div class="photo-label">
+                            <h3>Project 3</h3>
+                            <h4>Placeholder definition</h4>
+                        </div>
+                    </a>
+                </div>
+        
+                <div class="project-container">
+                    <a href="https://www.google.com">
+                        <img src="./assets/images/project4.png" alt="project 4 image">
+                        <div class="photo-label">
+                            <h3>Project 4</h3>
+                            <h4>Placeholder definition</h4>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project-container">
+                    <a href="https://www.google.com">
+                        <img src="./assets/images/project5.png" alt="project 5 image">
+                        <div class="photo-label">
+                            <h3>Project 5</h3>
+                            <h4>Placeholder definition</h4>
+                        </div>
+                    </a>
+                </div>
+
                 </div>
             </div>
         </section>
 
         <!-- Contact section -->
         <section>
-            <div class="left">
-                <h2>CONTACT</h2>
-            </div>
-                <div class="right" id="contact">
-                    <article>
-                        <p>some sort of contact me stuff? Social media, email, etc.</p>
-                    </article>
+            <h2>CONTACT</h2>
+                <div id="contact">
+                    <a href="https://www.linkedin.com/in/benpitroff"><p>LinkedIn</p></a>
+                    <a href="https://www.instagram.com/benpitroff/"><p>Instagram</p></a>
+                    <a href="tel:555-555-5555"><p>Phone???</p></a>
+                    
                 </div>
         </section>
 
     </main>
 
     <footer>
-        <h2>Footer information</h2>
-        <ul>
-            <li>
-                Contact
-            </li>
-            <li>
-                Social Media
-            </li>
-            <li>
-                Surprise
-            </li>
-        </ul>
+        <h4>Created by ME</h4>
     </footer>
 </body>
