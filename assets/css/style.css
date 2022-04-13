@@ -22,6 +22,7 @@ body{
 header,footer{
     display:block;
     margin:3em;
+    text-align: center;
 }
 
 h1, h2, h3, h5, h6 {
@@ -112,7 +113,7 @@ h2 {
     justify-content: center;
     align-content: center;
     background-color:var(--main-color);
-    margin: 2em 0 2em 0;
+    margin: 0 0 2em 0;
 }
 
 .project-container{
@@ -169,10 +170,10 @@ p {
     padding:2em;
 }
 
-footer{
+/* footer{
     text-align: center;
     padding:4em;
-}
+} */
 
 /* 
 @media whatever to do a vertical navbar
@@ -180,7 +181,7 @@ li a {
   display: block;
 */
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1000px) {
 
     header,footer {
         margin:2em;
@@ -190,11 +191,32 @@ li a {
         text-align:center;
         font-size:4em;
     }
-    
-    h2 {
-        text-align: left;
+
+    section{
+        }
+
+    section>h2 {
+        display:inline;
+        right:30px;
+        margin-left:11em;
         font-size:2em;
         font-weight: 300;
+        border-bottom: 0;
+
+    }
+
+    #about,#work,#content{
+        margin-left:29em;
+        margin-right:auto;
+        width:50%;
+    
+        /* right:0px; */
+        /* float:right; */
+        border-left: 2px solid var(--heading-color);
+    }
+
+    footer{
+        display:block;
     }
 
 }
