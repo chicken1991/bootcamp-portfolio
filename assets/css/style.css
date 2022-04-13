@@ -1,8 +1,8 @@
 :root {
     --background-color:#111213ff;
-    --heading-color:#7c8eca;
+    --heading-color:#a6bee1;
     --main-color:#333;
-    --text-color:#bdbaba;
+    --text-color:#c3cad7;
 }
 
 /* SMOOTH SCROLL OH YEAH */
@@ -61,7 +61,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: var(--main-color);
   }
   
   li {
@@ -70,7 +70,7 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: var(--text-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
