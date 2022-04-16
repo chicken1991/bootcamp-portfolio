@@ -14,7 +14,6 @@ body{
     /* fit content to screen */
     min-width: fit-content;
     background-color:var(--background-color);
-    font-size:16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -28,6 +27,7 @@ footer{
     text-align:center;
 }
 
+/* Most headers should have a black shadow "border" */
 h1, h2, h3, h5, h6 {
     color:var(--heading-color);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -40,6 +40,7 @@ h4{
     font-size: small;
 }
 
+/* specific h1 attribues for header */
 header h1  {
     font-size: 2em;
     text-align: right;
@@ -65,17 +66,13 @@ ul {
     background-color: var(--main-color);
   }
   
-  li {
-    /* float: left; */
-  }
-  
-  li a {
+li a {
     display: block;
     color: var(--text-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
 
 nav li a:hover{
     background-color:var(--background-color);
@@ -92,6 +89,8 @@ main {
 #about p{
     text-align:center;
     padding:3em;
+    color:var(--text-color);
+
 }
 
 /* Avatar that is displayed in the header */
@@ -104,7 +103,7 @@ main {
     z-index: -1;
 }
 
-/* This h2 is utilized on the "side bar" to designate each main section */
+/* This h2 is utilized on the left "side bar" to designate each main section */
 h2 {
     text-align: center;
     font-size:2em;
@@ -116,7 +115,6 @@ h2 {
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
-    align-content: center;
     background-color:var(--main-color);
     margin: 0 0 2em 0;
 }
@@ -136,10 +134,11 @@ h2 {
     height:auto;   
 }
 
-/* This is the black box overlay on the project photos */
+/* This is the black box label overlay on the project photos */
 .photo-label {
     position: absolute;
     top: 0;
+    /* background is slightly transparent */
     background: rgba(0, 0, 0, 0.8); 
     width: 70%;
     padding: 1em;
@@ -157,13 +156,9 @@ h2 {
     max-width: 80em;
 }
 
+/* opacity on img is removed when hovered over the entire project container */
 .project-container:hover img{
     opacity: 1;
-}
-
-/* currently used only in the About Me section */
-p {
-    color:var(--text-color);
 }
 
 #contact{
@@ -181,6 +176,7 @@ p {
 /* Media query to adjust layout for any viewport over 1000px */
 @media screen and (min-width:1000px) {
 
+    /* Adjust nav so it gets shoved to the left */
     ul {
         justify-content: flex-start;
     }
@@ -204,6 +200,7 @@ p {
         border-bottom: 0;
     }
 
+    /* Creates a "side bar" layout style */
     #about,#work,#contact{
         margin-left:20em;
         border-left: 2px solid var(--heading-color);
