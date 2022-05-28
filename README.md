@@ -3,7 +3,8 @@ My portfolio for this coding bootcamp. This allowed me to practice utilizing a w
 
 [Follow this link to see the live page](https://chicken1991.github.io/bootcamp-portfolio/).
 
+[Follow this link to see the repo](https://github.com/chicken1991/bootcamp-portfolio/).
 
-![screenshot of my portfolio](./assets/images/readme-image.png)
+![screenshot of my portfolio](./assets/img/readme-image.png)
 
 -Created by Ben Pitroff-
