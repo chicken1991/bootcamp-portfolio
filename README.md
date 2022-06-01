@@ -13,4 +13,6 @@ My portfolio for this coding bootcamp. This allowed me to practice utilizing a w
 
 -Created by Ben Pitroff-
 
+[github](https://github.com/chicken1991)
+
 [This project is MIT licensed](./license.md)
