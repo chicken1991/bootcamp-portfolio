@@ -12,3 +12,5 @@ My portfolio for this coding bootcamp. This allowed me to practice utilizing a w
 ![screenshot 3 of portfolio](./assets/img/readme-image3.png)
 
 -Created by Ben Pitroff-
+
+[This project is MIT licensed](./license.md)
