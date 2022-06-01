@@ -7,4 +7,8 @@ My portfolio for this coding bootcamp. This allowed me to practice utilizing a w
 
 ![screenshot of my portfolio](./assets/img/readme-image.png)
 
+![screenshot 2 of portfolio](./assets/img/readme-image2.png)
+
+![screenshot 3 of portfolio](./assets/img/readme-image3.png)
+
 -Created by Ben Pitroff-
